@@ -1,0 +1,145 @@
+﻿Log file open, 07/13/16 21:29:02
+LogInit:Display: Running engine for game: GAME
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1775757082) SRandInit(-1775757061).
+LogTaskGraph: Started task graph with 4 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.107127
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: E:/Programas/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.07.14-00.29.02:512][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.14-00.29.02:512][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.07.14-00.29.02:524][  0]LogInit: Computer: TCK
+[2016.07.14-00.29.02:524][  0]LogInit: User: Kaic
+[2016.07.14-00.29.02:524][  0]LogInit: CPU Page size=65536, Cores=3
+[2016.07.14-00.29.02:524][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2016.07.14-00.29.02:524][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2016.07.14-00.29.02:524][  0]LogMemory: Platform Memory Stats for Windows
+[2016.07.14-00.29.02:524][  0]LogMemory: Process Physical Memory: 188.28 MB used, 188.28 MB peak
+[2016.07.14-00.29.02:524][  0]LogMemory: Process Virtual Memory: 194.75 MB used, 194.75 MB peak
+[2016.07.14-00.29.02:524][  0]LogMemory: Physical Memory: 4741.94 MB used, 16348.66 MB total
+[2016.07.14-00.29.02:524][  0]LogMemory: Virtual Memory: 530.67 MB used, 134217728.00 MB total
+[2016.07.14-00.29.03:184][  0]LogD3D11RHI: D3D11 adapters:
+[2016.07.14-00.29.03:255][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
+[2016.07.14-00.29.03:255][  0]LogD3D11RHI:       2027/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2016.07.14-00.29.03:257][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.07.14-00.29.03:257][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.07.14-00.29.03:257][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.07.14-00.29.03:263][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.07.14-00.29.03:263][  0]LogD3D11RHI:     GPU DeviceId: 0x6810 (for the marketing name, search the web for "GPU Device Id")
+[2016.07.14-00.29.03:263][  0]LogWindows: EnumDisplayDevices:
+[2016.07.14-00.29.03:263][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:1 D:1)
+[2016.07.14-00.29.03:263][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:0 D:1)
+[2016.07.14-00.29.03:263][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2016.07.14-00.29.03:264][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2016.07.14-00.29.03:264][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2016.07.14-00.29.03:264][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2016.07.14-00.29.03:265][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2016.07.14-00.29.03:265][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
+[2016.07.14-00.29.03:265][  0]LogD3D11RHI:   Driver Version: Crimson 16.6.2 (internal:16.200.1035.0, unified:16.200.1035.0)
+[2016.07.14-00.29.03:265][  0]LogD3D11RHI:      Driver Date: 6-21-2016
+[2016.07.14-00.29.03:265][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.07.14-00.29.03:273][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.07.14-00.29.03:288][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2016.07.14-00.29.03:288][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (C:/Users/Kaic/Desktop/01/GAME/Intermediate/Shaders/WorkingDirectory/5384/).
+[2016.07.14-00.29.03:289][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Kaic/AppData/Local/Temp/UnrealShaderWorkingDir/4A11A3CA4AB52A35909FCA94EA3ED6E8/'.
+[2016.07.14-00.29.03:289][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.07.14-00.29.05:600][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.07.14-00.29.05:621][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.07.14-00.29.05:642][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.07.14-00.29.05:665][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.07.14-00.29.05:687][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.07.14-00.29.05:707][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.07.14-00.29.05:727][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.07.14-00.29.05:746][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.07.14-00.29.05:766][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.07.14-00.29.05:786][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.07.14-00.29.05:806][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.07.14-00.29.05:846][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.07.14-00.29.05:846][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.07.14-00.29.05:855][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.07.14-00.29.05:906][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.07.14-00.29.05:924][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.07.14-00.29.05:942][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.07.14-00.29.05:961][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.07.14-00.29.05:980][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.07.14-00.29.05:980][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.07.14-00.29.06:329][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.07.14-00.29.06:423][  0]LogDerivedDataCache: Loaded boot cache 0.09s 62MB C:/Users/Kaic/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.07.14-00.29.06:424][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Kaic/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.07.14-00.29.06:424][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Kaic/Desktop/01/GAME/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.07.14-00.29.06:424][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.07.14-00.29.06:424][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Kaic/Desktop/01/GAME/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.07.14-00.29.06:424][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.07.14-00.29.06:446][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.07.14-00.29.06:460][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kaic/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.07.14-00.29.06:786][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.14-00.29.06:788][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.07.14-00.29.07:048][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.07.14-00.29.07:048][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.07.14-00.29.07:048][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.07.14-00.29.07:515][  0]LogAssetRegistry: FAssetRegistry took 0.0222 seconds to start up
+[2016.07.14-00.29.07:542][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.021549 seconds
+[2016.07.14-00.29.07:550][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.07.14-00.29.07:550][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2016.07.14-00.29.07:550][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.07.14-00.29.07:575][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.07.14-00.29.08:380][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.07.14-00.29.08:380][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.07.14-00.29.09:831][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.07.14-00.29.10:314][  0]SourceControl: Info Source control is disabled
+[2016.07.14-00.29.10:402][  0]SourceControl: Info Source control is disabled
+[2016.07.14-00.29.10:452][  0]SourceControl: Info Source control is disabled
+[2016.07.14-00.29.10:492][  0]SourceControl: Info Source control is disabled
+[2016.07.14-00.29.11:181][  0]LogEngine: Initializing Engine...
+[2016.07.14-00.29.11:248][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2016.07.14-00.29.11:257][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2016.07.14-00.29.11:466][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.07.14-00.29.11:479][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.14-00.29.11:491][  0]LogInit: FAudioDevice initialized.
+[2016.07.14-00.29.11:536][  0]LogDerivedDataCache: Saved boot cache 0.05s 48MB C:/Users/Kaic/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.07.14-00.29.11:550][  0]LogInit: Texture streaming: Enabled
+[2016.07.14-00.29.11:642][  0]LogInit: Transaction tracking system initialized
+[2016.07.14-00.29.11:752][  0]BlueprintLog: New page: Editor Load
+[2016.07.14-00.29.12:267][  0]LocalizationService: Info Localization service is disabled
+[2016.07.14-00.29.12:551][  0]LogConsoleResponse:Display: 
+[2016.07.14-00.29.12:710][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.07.14-00.29.12:710][  0]LogCook:Display: Mobile HDR setting 1
+[2016.07.14-00.29.13:097][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kaic/Desktop/01/GAME/Content/' took 0.01s
